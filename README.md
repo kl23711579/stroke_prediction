@@ -1,0 +1,7 @@
+# Abstract
+
+The aim of this report is going to create a model to predict whether a patient have stroke. The dataset has some features which can be used to predict stroke. These features are gender, age, hypertension, heart disease, marriage status, work type, residence type, glucose level, bmi, smoking status and target variable which is stroke result. This report can be used to support the medical staff to make better decision and to warn the high-risk personnel. According to [World Health Organisation (WHO)](https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death), stroke is the second high cause of death in the world. As a result, machine learning technique can be applied to help doctors to provide care and treat the patients in the early stage.
+
+The dataset will be processed with neural network algorithm, and hyperparameters will be adjusted to effectively train the model. There are two hyperparameters will be tuned to find the better model which are hidden layer and neural node.
+
+The best model has high accuracy, however, there are some issues are exposed in the analysis. The dataset is highly unbalanced, and some features contain missing data. Moreover, the size of dataset becomes very small after resampling the dataset, so it might not train the model effectively. Furthermore, the approach of collecting dataset is unknow, so it will cause some problems. 
